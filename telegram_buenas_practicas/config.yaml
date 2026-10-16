@@ -1,6 +1,6 @@
 name: "Telegram Buenas Practicas"
 description: "Guarda en un repo privado de GitHub los mensajes de un grupo de Telegram"
-version: "0.1.0"
+version: "0.2.0"
 slug: "telegram_buenas_practicas"
 init: false
 arch:
