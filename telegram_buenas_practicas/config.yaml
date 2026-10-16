@@ -1,0 +1,21 @@
+name: "Telegram Buenas Practicas"
+description: "Guarda en un repo privado de GitHub los mensajes de un grupo de Telegram"
+version: "0.1.0"
+slug: "telegram_buenas_practicas"
+init: false
+arch:
+  - aarch64
+  - amd64
+startup: services
+options:
+  telegram_token: ""
+  github_token: ""
+  github_repo: "kikeemm/Buenas-practicas"
+  inbox_path: "00_Inbox"
+  allowed_chat_id: 0
+schema:
+  telegram_token: password
+  github_token: password
+  github_repo: str
+  inbox_path: str
+  allowed_chat_id: int
